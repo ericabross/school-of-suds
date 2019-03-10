@@ -9,3 +9,20 @@ Version:      2.0.0
 Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  storefront-theme-child
 */
+
+h1, h2, h3, h4, h5, h6, body, button, input, textarea {
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-navigation {
+	font-family: 'Fredericka the Great', cursive;
+}
+
+
+.main-navigation ul li a {
+	color: #996699;
+}
+
+.entry-title .loaded h1 {
+	font-weight: bold;
+}
