@@ -10,35 +10,86 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  storefront-theme-child
 */
 
+/* Body Styles */
+
 h1, h2, h3, h4, h5, h6, body, button, input, textarea {
 	font-family: 'Raleway', sans-serif;
 }
 
+
+/* Navigation */
 .main-navigation {
 	font-family: 'Fredericka the Great', cursive;
 }
-
 
 .main-navigation ul li a {
 	color: #996699;
 }
 
+.main-navigation ul li a:hover {
+  border-bottom: 3px solid #996699;
+  color: #996699;
+}
+
+.main-navigation li.current-menu-item a.current-menu-item {
+  border-bottom: 3px #996699;
+}
+
+.site-header ul.menu li.current-menu-item > a {
+    color: #996699;
+}
+
+
+/* Hero */
 .entry-title .loaded h1 {
 	font-weight: bold;
 }
 
+
+/* Products */
 .single_add_to_cart_button.alt {
 	background-color: #996699;
 }
 
-.product_title.entry-title {
-	color: #9999cc;
-}
-
+/* Check Out */
 .woocommerce-message {
 	background-color: #996699;
+}
+
+.woocommerce-info {
+	background-color: #9999cc;
 }
 
 .wc-proceed-to-checkout .button.checkout-button {
 	background-color: #9999cc;
 }
+
+a.remove::before {
+	color: #9999cc;
+}
+
+/* Contact Page */
+
+article#post-27 {
+    margin: 0 auto;
+    width: 90%;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+	background-color: #996699;
+	color: #fff;
+}
+
+
+@media (min-width: 768px) {
+
+	/* Contact Page */
+
+	article#post-27 {
+    	margin: 0 auto;
+    	width: 60%;
+	}
+
+
+
+
