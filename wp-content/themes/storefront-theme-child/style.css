@@ -23,20 +23,20 @@ h1, h2, h3, h4, h5, h6, body, button, input, textarea {
 }
 
 .main-navigation ul li a {
-	color: #996699;
+	color: #9a578b;
 }
 
 .main-navigation ul li a:hover {
-  border-bottom: 3px solid #996699;
-  color: #996699;
+  border-bottom: 3px solid #9a578b;
+  color: #9a578b;
 }
 
 .main-navigation li.current-menu-item a.current-menu-item {
-  border-bottom: 3px #996699;
+  border-bottom: 3px #9a578b;
 }
 
 .site-header ul.menu li.current-menu-item > a {
-    color: #996699;
+    color: #9a578b;
 }
 
 
@@ -48,24 +48,24 @@ h1, h2, h3, h4, h5, h6, body, button, input, textarea {
 
 /* Products */
 .single_add_to_cart_button.alt {
-	background-color: #996699;
+	background-color: #9a578b
 }
 
 /* Check Out */
 .woocommerce-message {
-	background-color: #996699;
+	background-color: #9a578b
 }
 
 .woocommerce-info {
-	background-color: #9999cc;
+	background-color: #92afc6;
 }
 
 .wc-proceed-to-checkout .button.checkout-button {
-	background-color: #9999cc;
+	background-color: #92afc6;
 }
 
 a.remove::before {
-	color: #9999cc;
+	color: #92afc6;
 }
 
 /* Contact Page */
@@ -76,7 +76,7 @@ article#post-27 {
 }
 
 div.wpforms-container-full .wpforms-form button[type=submit] {
-	background-color: #996699;
+	background-color: #9a578b;
 	color: #fff;
 }
 
